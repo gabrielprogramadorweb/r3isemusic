@@ -812,7 +812,7 @@ img {
       border-color: transparent;
       background-color: transparent; }
 
-.single-album {
+.single-album {width: 100%;
   position: relative;
   z-index: 1;
   -webkit-transition-duration: 500ms;

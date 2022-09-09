@@ -1451,6 +1451,14 @@ img {
       line-height: 1; }
 
 /* :: 18.0 Contact Area CSS */
+.contact-content .contact-social-inf2 a {
+  text-align: center center;
+ 
+  margin-right: 50px;
+  margin: auto;
+  font-size: 54px;}
+
+
 .contact-content {
   position: relative;
   z-index: 2;

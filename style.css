@@ -1183,7 +1183,7 @@ img {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 30px 0; }
   @media only screen and (max-width: 767px) {
     .footer-area {
@@ -1453,38 +1453,45 @@ img {
 /* :: 18.0 Contact Area CSS */
 .contact-content {
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  margin: auto; }
   .contact-content .contact-social-info a {
+    
     display: inline-block;
     margin-right: 20px;
     font-size: 14px;
     color: #000000; }
     .contact-content .contact-social-info a:hover, .contact-content .contact-social-info a:focus {
-      color: #232323; }
+      color: #232323;
+     }
   .contact-content .single-contact-info {
     position: relative;
     margin-bottom: 20px; }
     .contact-content .single-contact-info:last-child {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+     }
     .contact-content .single-contact-info p {
       font-size: 15px;
       margin-bottom: 0; }
     .contact-content .single-contact-info .icon {
       -webkit-box-flex: 0;
+      margin: auto;
       -ms-flex: 0 0 35px;
       flex: 0 0 35px;
       max-width: 35px;
-      width: 35px;
-      height: 35px;
+      width: 45px;
+      height: 45px;
       border: 1px solid #000;
       text-align: center; }
       .contact-content .single-contact-info .icon span {
         font-size: 20px;
+        margin: auto;
         line-height: 33px; }
 
 .contact-form-area .form-control {
   position: relative;
   z-index: 2;
+  margin: auto;
   height: 45px;
   width: 100%;
   background-color: transparent;
@@ -1500,6 +1507,7 @@ img {
   transition-duration: 500ms; }
   .contact-form-area .form-control:focus {
     box-shadow: none;
+    margin: auto;
     border-bottom: 1px solid #000000; }
 .contact-form-area textarea.form-control {
   height: 160px; }

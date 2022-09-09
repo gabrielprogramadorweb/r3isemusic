@@ -864,7 +864,8 @@ img {
       -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
   .single-album-area img {
-    width: 100%; }
+    width: 300px; 
+  height: 300px;}
   .single-album-area .album-info {
     display: block;
     position: relative;

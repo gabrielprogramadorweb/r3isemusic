@@ -1453,18 +1453,22 @@ img {
 /* :: 18.0 Contact Area CSS */
 .contact-social-info2 a {
   
-  min-height: 19em;
-    
+
+ 
+  align-items: center;
     vertical-align: middle;
 font-weight: 30px;
 text-align: center;
-padding: 30px;
+padding: 10px;
+margin-bottom: 30px;
+
+padding-bottom: 20px;
 position: center;
-font-size: 25px;
+font-size: 23px;
 font-variant-position: sub;
 height: 200px;
 width: 400px;
-transform: translate(-50%, -70%);}
+}
 
 
 .contact-content {

@@ -16,13 +16,11 @@
 *:after {
   box-sizing: border-box;
 }
-
 body {
   background-color: #fef29c;
   color: #515044;
   font-family: 'Raleway', sans-serif;
 }
-
 .music-player-container {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
